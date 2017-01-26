@@ -1,0 +1,28 @@
+title  : Ransel
+email  : halo@tertanda.com
+baseurl: ""
+
+permalink: pretty
+
+gems:
+  - jekyll-sitemap
+
+sass:
+  style: :compressed
+
+kramdown:
+  auto_ids    : false
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+
+compress_html:
+  clippings: all
+  comments : ["<!-- ", " -->"]
+  endings  : all
+
+# Exclude these files from production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME

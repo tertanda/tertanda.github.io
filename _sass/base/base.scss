@@ -1,0 +1,54 @@
+/*
+ * BASE STARTS
+ */
+html { box-sizing: border-box; }
+
+*,
+*:before,
+*:after { box-sizing: inherit; }
+
+body {
+    background-color: #fff;
+    color: #333;
+    font-family: "Source Sans Pro", "Helvetica", sans-serif;
+    font-feature-settings: "kern";
+    font-size: 1rem;
+    margin: 0;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+
+
+/*
+ | LAYOUT STARTS
+ */
+.page-wrapper {
+    margin: 0 auto;
+    width: 85%;
+}
+
+.page-column::after {
+    clear: both;
+    content: " ";
+    display: table;
+}
+
+.page-head,
+.page-foot {
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+
+.site-company__desc,
+.page-foot { color: #767676; }
+/*
+ | LAYOUT ENDS
+ */
+/*
+ * BASE ENDS
+ */

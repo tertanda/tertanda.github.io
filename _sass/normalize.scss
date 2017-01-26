@@ -1,0 +1,32 @@
+/*
+ * NORMALIZE STARTS
+ */
+html {
+    font-family: sans-serif;
+    line-height: 1.45;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+footer,
+header,
+main { display: block; }
+
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+a:active,
+a:hover { outline-width: 0; }
+
+b,
+strong { font-weight: inherit; }
+
+b,
+strong { font-weight: bolder; }
+
+img { border-style: none; }
+/*
+ * NORMALIZE ENDS
+ */

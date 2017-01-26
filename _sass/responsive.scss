@@ -1,0 +1,40 @@
+@media screen and (min-width: 480px) {
+    body { font-size: 1.1487rem; }
+    
+    .page-wrapper { width: 92.5%; }
+    
+    .page-aside {
+        float: left;
+        width: 50%;
+    }
+    
+    .site-company__item { margin-bottom: 0; }
+    
+    .site-company__desc, .page-foot { font-size: 0.8706rem; }
+}
+
+@media screen and (min-width: 540px) {
+    body { font-size: 1.3195rem; }
+    
+    h1 { font-size: 2rem; }
+    
+    .page-wrapper { width: 85%; }
+    
+    .site-company__link span { line-height: 1.125; }
+    
+    .site-company__desc, .page-foot { font-size: 0.8706rem; }
+}
+
+@media screen and (min-width: 640px) {
+    .page-wrapper { width: 560px; }
+    
+    .site-company__logo { width: 3rem; }
+    
+    .site-company__link span { line-height: 1.25; }
+    
+    .site-company__desc, .page-foot { font-size: 1rem; }
+}
+
+@media screen and (min-width: 960px) {
+    a:hover { color: #333; }
+}

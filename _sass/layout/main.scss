@@ -1,0 +1,39 @@
+/*
+ * MAIN STARTS
+ */
+/*
+ | COMPANY STARTS
+ */
+.site-company__list {
+    list-style: none;
+    margin-bottom: 0;
+    margin-top: 1.25rem;
+    padding-left: 0;
+}
+
+.site-company__item { margin-bottom: 1.25rem; }
+
+.site-company__item:last-of-type { margin-bottom: 0; }
+
+.site-company__link,
+.site-company__link span { display: block; }
+
+.site-company__link span { line-height: 1.25; }
+
+.site-company__logo {
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.175);
+    border-radius: 100%;
+    float: left;
+    margin-right: 1rem;
+    width: 2.5rem;
+}
+
+.site-company__name { font-weight: 700; }
+
+.site-company__desc { color: #767676; }
+/*
+ | COMPANY ENDS
+ */
+/*
+ * MAIN ENDS
+ */
