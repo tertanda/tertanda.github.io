@@ -14,15 +14,11 @@
 }
 
 @media screen and (min-width: 540px) {
-    body { font-size: 1.3195rem; }
-    
     h1 { font-size: 2rem; }
     
     .page-wrapper { width: 85%; }
     
-    .site-company__link span { line-height: 1.125; }
-    
-    .site-company__desc, .page-foot { font-size: 0.8706rem; }
+    .site-company__link span { line-height: 1.25; }
 }
 
 @media screen and (min-width: 640px) {
@@ -30,7 +26,7 @@
     
     .site-company__logo { width: 3rem; }
     
-    .site-company__link span { line-height: 1.25; }
+    .site-company__link span { line-height: 1.425; }
     
     .site-company__desc, .page-foot { font-size: 1rem; }
 }
